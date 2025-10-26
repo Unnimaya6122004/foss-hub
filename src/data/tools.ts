@@ -288,6 +288,36 @@ export const tools: Tool[] = [
     icon: "💻 ",
     stars: 41,
   },
+  {
+    id: "mpv",
+    name: "MPV Player",
+    description: "mpv is a free, open-source, cross-platform command-line media player with a small on-screen controller, supporting many formats and high-quality video output.",
+    category: "Media",
+    website: "https://mpv.io/",
+    github: "https://github.com/mpv-player/mpv",
+    icon: "🎥",
+    stars: 32.4,
+  },
+  {
+    id: "balena-etcher",
+    name: "Balena Etcher",
+    description: "A cross-platform tool to flash OS images onto SD cards and USB drives safely and easily. Free and open source for makers around the world.",
+    category: "Development",
+    website: "https://etcher.balena.io/",
+    github: "https://github.com/balena-io",
+    icon: "💾",
+    stars: 32.4,
+  },
+  {
+    id: "ventoy",
+    name: "Ventoy",
+    description: "Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files.With ventoy, you don't need to format the disk over and over, just copy the image files to the USB drive and boot them. You can copy many image files at a time and ventoy will give you a boot menu to select them.",
+    category: "Development",
+    website: "https://www.ventoy.net/en/index.html",
+    github: "https://github.com/ventoy/Ventoy",
+    icon: "♆",
+    stars: 71.4,
+  },
 ];
 
 export const categories = [
